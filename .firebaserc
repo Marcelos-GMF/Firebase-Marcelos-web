@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fire-marcelos-web": {
+      "hosting": {
+        "firebase-marcelos-web": [
+          "fire-marcelos-web"
+        ]
+      }
+    }
+  }
+}

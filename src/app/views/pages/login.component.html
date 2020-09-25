@@ -1,0 +1,31 @@
+<mat-card>
+
+  <mat-card-title>Tela de login</mat-card-title>
+  
+  <form class="form-group" (ngSubmit)="onSubmit()" [formGroup]="formGroupLogin">
+    <mat-form-field>
+      <input matInput placeholder="Login" name="nome"
+      formControlName="nome" > 
+      <!-- [(ngModel)]="produto.nome" > -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Digite a senha" name="senha"
+      formControlName="senha">
+      <!-- [(ngModel)]="produto.preco" > -->
+    </mat-form-field>
+	
+	      <!-- <div class="row"> -->
+        <!-- <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div> -->
+      <!-- </div> -->
+
+    
+    <button mat-raised-button color="primary" >Login
+      <i class="material-icons right">send</i>
+    </button> 
+
+  </form>
+</mat-card>
